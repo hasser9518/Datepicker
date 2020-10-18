@@ -18,15 +18,12 @@ import com.google.android.material.datepicker.MaterialDatePicker;
 import com.google.android.material.datepicker.MaterialPickerOnPositiveButtonClickListener;
 import com.google.android.material.shape.MarkerEdgeTreatment;
 
-import java.util.Calendar;
-import java.util.TimeZone;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     private Button btn_datePicker; //Creación de boton para elegir DATE PICKER
     private Button btn_datePickerR; //Creacion de boton para elegir DATE RANGE PICKER
     private TextView tv_fecha; //Creacion de texto donde se mostrara la fecha seleccionada
-    int hora, minutos;
 
 
     @Override
